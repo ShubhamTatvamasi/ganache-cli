@@ -2,6 +2,7 @@ version: "3"
 services:
   ganache:
     container_name: ganache
-    image: shubhamtatvamasi/ganache-cli
+    # image: shubhamtatvamasi/ganache-cli
+    image: trufflesuite/ganache-cli
     ports:
       - "127.0.0.1:8545:8545"
