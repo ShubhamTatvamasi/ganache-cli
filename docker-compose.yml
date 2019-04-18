@@ -1,5 +1,7 @@
 version: "3"
 services:
-  node:
-    image: shubhamtatvamasi/ganache-cli:latest
-    build: .
+  ganache:
+    container_name: ganache
+    image: shubhamtatvamasi/ganache-cli
+    ports:
+      - "127.0.0.1:8545:8545"
