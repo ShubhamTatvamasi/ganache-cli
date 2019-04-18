@@ -1,5 +1,5 @@
 version: "3"
 services:
-  python:
+  node:
     image: shubhamtatvamasi/ganache-cli:latest
     build: .
